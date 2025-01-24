@@ -32,6 +32,9 @@ ul{
     margin-right: 30px;
     color: #262626;
 }
+.navbar a:hover {
+    text-decoration: underline;
+}
 .bar1, .bar2 {
     display: flex;
 }
@@ -63,7 +66,7 @@ ul{
     height: 500px;
     position: absolute;
     top: 30%;
-    left: 20px;
+    left: 100px;
     color: #fff;
 }
 .text1 h1, p{
@@ -71,10 +74,19 @@ ul{
     font-weight: bold;
     padding: 30px;
 }
+.shop {
+    margin: 100px;
+
+}
 .shop ul{
     display: flex;
-    text-align: center;
+    text-align: start;
+    justify-content: space-evenly;
+    /* height: 150px; */
     width: 100%;
+}
+.shop a {
+    color: #262626;
 }
 
 .icon {
@@ -87,22 +99,21 @@ ul{
     bottom: 60px;
     left: 30px;
 
-    
 }
 .plans ul{
     padding: 20px;
 }
 
 .plans a {
-    color: #fff;
+    color: #fff;   
+}
+.plans a:hover{
+    text-decoration: underline;
 }
 
-.link2 {
-    font-size: 20px;
+.linkbox {
+    font-weight: bold;
     background-color: #0067b8;
-}
-.link2 li {
-    margin: 20px;
 }
 
 
