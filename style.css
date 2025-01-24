@@ -1,5 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.container  {
+    font-size: 16px;
+    width: 100%;
+}
+
+.navigation {
+    font-size: 13px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    background-color: #e6e6e6;
+    width: 100%; 
+}
+.navbar a{
+    margin-right: 30px;
+    color: #262626;
+}
+.bar1, .bar2 {
+    display: flex;
+}
+
+
+.title {
+    height: 60px;
+    background-color:#0067b8 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.title a {
+    color: #fff;
+}
+.title a:hover {
+    text-decoration: underline;
+}
+.logo img {
+    height: 25px;
+}
+.showcase img {
+    width: 100%;
+}
+.text1 {
+    background-color: steelblue;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    color: #fff;
+}
+.text1 h1, p{
+    color: #fff;
+    font-weight: bold;
+    padding: 30px;
+}
+.shop ul{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
 .icon {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 100px;
     padding-left: 40px;
 }
+.plans {
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+
+    
+}
+.plans ul{
+    padding: 20px;
+}
+
+.plans a {
+    color: #fff;
+}
+
+.link2 {
+    font-size: 20px;
+    background-color: #0067b8;
+}
+.link2 li {
+    margin: 20px;
+}
+
+
+
