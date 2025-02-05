@@ -14,7 +14,7 @@ ul{
 }
 
 .container  {
-    font-size: 16px;
+    font-size: 15px;
     width: 100%;
 }
 
@@ -58,21 +58,58 @@ ul{
     height: 25px;
 }
 .showcase img {
+    height: 520px;
     width: 100%;
+    object-fit: cover;
 }
 .text1 {
-    background-color: steelblue;
-    width: 500px;
-    height: 500px;
+    background-color: #fff;
+    width: 700px;
+    height: 310px;
     position: absolute;
-    top: 30%;
+    top: 17%;
     left: 100px;
-    color: #fff;
+    
 }
 .text1 h1, p{
-    color: #fff;
+    color: #333;
+}
+.text1 h1{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+.text1 p{
+    font-size: 16px;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+
+
+.linkbox {
     font-weight: bold;
-    padding: 30px;
+    background-color: #0067b8;
+    
+}
+.plans {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+
+}
+.plans ul{
+    padding: 15px;
+}
+
+.plans a {
+    color: #fff; 
+    font-size: 17px;
+    word-spacing: 3px; 
+}
+.plans a:hover{
+    text-decoration: underline;
 }
 .shop {
     margin: 100px;
@@ -80,40 +117,28 @@ ul{
 }
 .shop ul{
     display: flex;
-    text-align: start;
     justify-content: space-evenly;
-    /* height: 150px; */
     width: 100%;
+    
 }
 .shop a {
-    color: #262626;
+    color: #0067b8;
+    text-decoration: underline;
+}
+.shop li{
+    text-align: center;
 }
 
 .icon {
-    height: 60px;
-    width: 100px;
-    padding-left: 40px;
+    height: 40px;
+    width: 40px;
 }
-.plans {
-    position: absolute;
-    bottom: 60px;
-    left: 30px;
 
-}
-.plans ul{
+.cards {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
     padding: 20px;
-}
-
-.plans a {
-    color: #fff;   
-}
-.plans a:hover{
-    text-decoration: underline;
-}
-
-.linkbox {
-    font-weight: bold;
-    background-color: #0067b8;
 }
 
 
