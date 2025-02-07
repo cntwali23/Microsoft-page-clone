@@ -58,16 +58,16 @@ ul{
     height: 25px;
 }
 .showcase img {
-    height: 520px;
+    height: 580px;
     width: 100%;
     object-fit: cover;
 }
 .text1 {
     background-color: #fff;
     width: 700px;
-    height: 310px;
+    height: 330px;
     position: absolute;
-    top: 17%;
+    top: 19%;
     left: 100px;
     
 }
@@ -133,8 +133,23 @@ ul{
     height: 40px;
     width: 40px;
 }
+.cards{
+    display: flex;
 
+}
+.card li{
+    background-color: #0067b8;
+    width: fit-content;
+    padding: 15px;
+}
+.card a{
+    color: #fff;
+    font-weight: bold;
 
-
+}
+.card{
+    /* padding: 24px 24px 0; */
+    word-wrap: break-word;
+}
 
 
